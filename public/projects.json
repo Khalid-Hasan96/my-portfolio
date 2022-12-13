@@ -1,0 +1,35 @@
+[
+      {
+            "id": 1,
+            "name": "Mr Electric",
+            "type": "Single Page Application",
+            "technology": "React, React Router DOM, MongoDB, Express JS, Firebase, Tailwind CSS, Daisy UI, react-img-viewer, react-toastify, React Icons",
+            "features": "Mr. Electric is a service review website. Users can review the services that Mr. Electric provides. Users have to login first to review any service. After login, users can see two routes named Add Service & My reviews. On the Add Service route user can add any service & on My Reviews route user can see his/her all review.",
+            "img": "https://i.ibb.co/tmZBHb9/Mr-Electric.png",
+            "server": "https://github.com/Khalid-Hasan96/service-review-server",
+            "client": "https://github.com/Khalid-Hasan96/serevice-review-client",
+            "live": "https://service-review-client-2d3e2.web.app/"
+      },
+      {
+            "id": 2,
+            "name": "PC Buy",
+            "type": "Single Page Application",
+            "technology": "React, React Router DOM, MongoDB, Express JS, Firebase, Tailwind CSS ,Daisy UI, React Icons, React Query, React Hook Form, Axios, react-hot-toast.",
+            "features": "PC Buy is a website for buying & selling PC parts. Users must select their role during signup or register. Seller role is for those who wants to sell their product. Buyer role is for those who want to buy used PC parts.After login, users can see dashboard route. On this route buyers can see the products that he booked, sellers can see Add Product, My Products, My Buyers etc. routes.",
+            "img": "https://i.ibb.co/R4ZGH81/PCBuy.png",
+            "server": "https://github.com/Khalid-Hasan96/used-product-resale-server",
+            "client": "https://github.com/Khalid-Hasan96/used-product-resale-client",
+            "live": "https://pcbuy-cb480.web.app/"
+      },
+      {
+            "id": 3,
+            "name": "Learn to Code",
+            "type": "Single Page Application",
+            "technology": "React, React Router DOM, MongoDB, Express JS, Firebase, React Icons, React Bootstrap, react-hot-toast",
+            "features": "Learn to Code is an online learning platform. Students can learn coding from this website. They must get premium access to learn anything from this website. Students can download course details also",
+            "img": "https://i.ibb.co/ZxYJZN9/Learn-to-Code.png",
+            "server": "https://github.com/Khalid-Hasan96/learning-platform-server",
+            "client": "https://github.com/Khalid-Hasan96/learning-platform-client",
+            "live": "https://learning-platform-client-8ca27.web.app/"
+      }
+]

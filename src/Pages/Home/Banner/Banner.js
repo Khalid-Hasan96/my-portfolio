@@ -1,5 +1,5 @@
 import React from 'react';
-import './Banner.css';
+// import './Banner.css';
 import Typical from 'react-typical';
 import hello from '../../../assets/hello.svg';
 
