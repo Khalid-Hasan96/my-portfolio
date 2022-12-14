@@ -3,6 +3,7 @@ import Footer from '../../Footer/Footer';
 import Banner from '../Banner/Banner';
 import HomeAbout from '../HomeAbout/HomeAbout';
 import HomeProject from '../HomeProject/HomeProject';
+import InTouch from '../InTouch/InTouch';
 import Skills from '../Skills/Skills';
 import './Home.css'
 
@@ -15,6 +16,7 @@ const Home = () => {
                         <Skills></Skills>
                         <HomeProject></HomeProject>
                         <HomeAbout></HomeAbout>
+                        <InTouch></InTouch>
                   </div>
                   <Footer></Footer>
             </section>

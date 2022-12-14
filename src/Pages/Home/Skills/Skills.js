@@ -14,12 +14,14 @@ import netlify from '../../../assets/Tools/netlify.png';
 import firebase from '../../../assets/Tools/firebase.png';
 import vercel from '../../../assets/Tools/vercel.svg';
 import vscode from '../../../assets/Tools/vs-code.png';
-import './Skills.css'
+import './Skills.css';
 
 const Skills = () => {
       return (
-            <section className='py-14'>
-                  <h2 className='text-center text-3xl font-semibold text-gray-200 skills'>Skills</h2>
+            <section className='py-10'>
+                  <h2 className='text-center text-3xl font-semibold text-gray-200 skills'>Skills
+
+                  </h2>
                   <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5'>
                         <div data-aos="fade-right" className='rounded-lg text-center backdrop-blur-sm bg-black/30 shadow-2xl'>
                               <h4 className='text-green-500 font-semibold text-2xl pt-3'>Front-end</h4>

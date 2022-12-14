@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ShowProjects from './ShowProjects';
 import './Projects.css'
+import Footer from '../Footer/Footer';
 
 const Projects = () => {
       const [projects, setProjects] = useState([]);
@@ -11,8 +12,8 @@ const Projects = () => {
       }, [])
 
       return (
-            <section className='py-14 projects-bg'>
-                  <h2 className='text-center text-2xl text-gray-200 font-semibold'>Projects</h2>
+            <section className='pt-10 projects-bg'>
+                  <h2 className='text-center text-2xl text-gray-200 font-semibold project-underline'>Projects</h2>
                   <div className='max-w-screen-xl mx-auto'>
                         <div className='mt-5'>
                               {
@@ -20,6 +21,7 @@ const Projects = () => {
                               }
                         </div>
                   </div>
+                  <Footer></Footer>
             </section>
       );
 };

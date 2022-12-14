@@ -1,16 +1,14 @@
 import React from 'react';
-import './Contact.css';
-import location from '../../assets/contact/placeholder.png';
-import whatsapp from '../../assets/contact/whatsapp.png';
-import gmail from '../../assets/contact/gmail.png';
-import Footer from '../Footer/Footer';
+import './InTouch.css';
+import location from '../../../assets/contact/placeholder.png';
+import whatsapp from '../../../assets/contact/whatsapp.png';
+import gmail from '../../../assets/contact/gmail.png';
 import emailjs from 'emailjs-com';
 
-const Contact = () => {
+const InTouch = () => {
 
       const sendEmail = event => {
             event.preventDefault();
-
             emailjs.sendForm('service_py8ra3n', 'template_frygkio', event.target, 'dMu7PjuF0yfqvrfN5')
                   .then((result) => {
                         console.log(result.text);
@@ -18,18 +16,19 @@ const Contact = () => {
                         console.log(error.text);
                   });
             event.target.reset()
+
       }
 
       return (
-            <div className='pt-14 contact-bg'>
-                  <h2 className='text-center text-2xl text-gray-200 font-semibold contact-underline'>Contact Me</h2>
-                  <div className='max-w-screen-xl mx-auto mt-5 mb-10 flex flex-col lg:flex-row justify-center items-center backdrop-blur-sm bg-black/30 rounded-lg'>
+            <section className='py-10'>
+                  <h2 className='text-center text-2xl text-gray-200 font-semibold contact-underline'>Get In Touch</h2>
+                  <div className='max-w-screen-xl mx-auto mt-5 flex flex-col lg:flex-row justify-center items-center backdrop-blur-sm bg-black/30 rounded-lg'>
                         <div className='w-full lg:w-1/2 p-10' data-aos="zoom-in-right">
                               <span className='text-white flex items-center gap-5'><img src={location} className="w-8" alt="" /> Dhaka, Bangladesh</span>
                               <span className='text-white flex items-center gap-5 my-5'><img src={whatsapp} className="w-8" alt="" /> +880 1625178628</span>
                               <span className='text-white flex items-center gap-5'><img src={gmail} className="w-8" alt="" /> kh747266@gmail.com</span>
                         </div>
-                        <div className='text-black p-5 w-full lg:w-1/2' data-aos="zoom-in-left">
+                        <div className='text-white p-5 w-full lg:w-1/2' data-aos="zoom-in-left">
                               <form onSubmit={sendEmail}>
                                     <input name='name' type="text" placeholder="Your Name" className="input input-bordered w-full text-black" />
                                     <input name='email' type="email" placeholder="Your Email" className="input input-bordered w-full text-black my-5" />
@@ -48,9 +47,8 @@ const Contact = () => {
                               </form>
                         </div>
                   </div>
-                  <Footer></Footer>
-            </div>
+            </section>
       );
 };
 
-export default Contact;
+export default InTouch;

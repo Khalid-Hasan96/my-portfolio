@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
+import btn from '../../assets/download-btn.svg'
+
 
 
 const Navbar = () => {
@@ -32,7 +34,12 @@ const Navbar = () => {
                         </ul>
                   </div>
                   <div className="navbar-end">
-                        <a className="btn">Resume</a>
+                        <a href='Khalid Hasan.pdf'>
+                              <button className="btn btn-warning hover:text-white hover:bg-yellow-700 gap-2 flex">
+                                    Resume
+                                    <img src={btn} className="w-6 animate-ping" alt="" />
+                              </button>
+                        </a>
                   </div>
             </div>
       );
