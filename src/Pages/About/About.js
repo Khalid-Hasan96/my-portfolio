@@ -7,7 +7,7 @@ const About = () => {
       return (
             <div className='pt-14 about-bg'>
                   <h2 className='text-center text-2xl text-gray-200 font-semibold project-underline'>About</h2>
-                  <div className='max-w-screen-xl mx-auto mt-5 mb-10 flex flex-col lg:flex-row justify-center items-center backdrop-blur-sm bg-black/30 rounded-lg'>
+                  <div className='sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto mt-5 mb-10 flex flex-col lg:flex-row justify-center items-center backdrop-blur-sm bg-black/30 rounded-lg'>
                         <div className='w-full lg:w-1/2' data-aos="zoom-in-right">
                               <img src={profile} alt="" />
                         </div>

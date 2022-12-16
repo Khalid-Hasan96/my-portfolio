@@ -22,7 +22,7 @@ const InTouch = () => {
       return (
             <section className='py-10'>
                   <h2 className='text-center text-2xl text-gray-200 font-semibold contact-underline'>Get In Touch</h2>
-                  <div className='max-w-screen-xl mx-auto mt-5 flex flex-col lg:flex-row justify-center items-center backdrop-blur-sm bg-black/30 rounded-lg'>
+                  <div className='sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto mt-5 flex flex-col lg:flex-row justify-center items-center backdrop-blur-sm bg-black/30 rounded-lg'>
                         <div className='w-full lg:w-1/2 p-10' data-aos="zoom-in-right">
                               <span className='text-white flex items-center gap-5'><img src={location} className="w-8" alt="" /> Dhaka, Bangladesh</span>
                               <span className='text-white flex items-center gap-5 my-5'><img src={whatsapp} className="w-8" alt="" /> +880 1625178628</span>
@@ -31,7 +31,7 @@ const InTouch = () => {
                         <div className='text-white p-5 w-full lg:w-1/2' data-aos="zoom-in-left">
                               <form onSubmit={sendEmail}>
                                     <input name='name' type="text" placeholder="Your Name" className="input input-bordered w-full text-black" />
-                                    <input name='email' type="email" placeholder="Your Email" className="input input-bordered w-full text-black my-5" />
+                                    <input name='email' type="email" placeholder="example@gmail.com" className="input input-bordered w-full text-black my-5" />
                                     <textarea name='message' className="textarea textarea-bordered w-full text-black" placeholder="Message"></textarea>
                                     <button type='submit' className='btn btn-accent text-white mt-4'>
                                           <div class="svg-wrapper-1">

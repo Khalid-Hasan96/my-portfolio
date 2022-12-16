@@ -14,7 +14,7 @@ const HomeProject = () => {
       return (
             <section className='py-10'>
                   <h2 className='text-center text-3xl text-gray-200 font-semibold project-underline'>Projects</h2>
-                  <div className='max-w-screen-xl mx-auto'>
+                  <div className='sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto'>
                         <div className='mt-5'>
                               {
                                     projects.map(project => <ShowProjects key={project.id} project={project}></ShowProjects>)

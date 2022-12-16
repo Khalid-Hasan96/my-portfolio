@@ -11,7 +11,7 @@ const Home = () => {
       return (
             // <section className='bg-gradient-to-r from-indigo-900 to-gray-900'>
             <section className='home-bg'>
-                  <div className='max-w-screen-xl mx-auto'>
+                  <div className='sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto'>
                         <Banner></Banner>
                         <Skills></Skills>
                         <HomeProject></HomeProject>
