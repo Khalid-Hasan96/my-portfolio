@@ -15,7 +15,7 @@ const Footer = () => {
                         <a href='https://www.facebook.com/khalid.bappy.5/' target='_blank' rel='noreferrer'><img className='w-8' src={facebook} alt="" /> </a>
                   </div>
                   <div>
-                        <p>Copyright © 2022 - All right reserved by <span className='text-green-500'>Khalid Hasan</span></p>
+                        <p>Copyright © 2022 - All right reserved by <a href='https://www.linkedin.com/in/khalid-hasan96/' rel='noreferrer' target='_blank' className='text-green-500'>Khalid Hasan</a></p>
                   </div>
             </div>
       );

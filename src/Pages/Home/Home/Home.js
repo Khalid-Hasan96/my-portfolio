@@ -5,13 +5,14 @@ import HomeAbout from '../HomeAbout/HomeAbout';
 import HomeProject from '../HomeProject/HomeProject';
 import InTouch from '../InTouch/InTouch';
 import Skills from '../Skills/Skills';
-import './Home.css'
+// import './Home.css'
 
 const Home = () => {
       return (
             // <section className='bg-gradient-to-r from-indigo-900 to-gray-900'>
-            <section className='home-bg'>
-                  <div className='sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto'>
+            <section className=' bg-gradient-to-r from-indigo-800 via-blue-800 to-violet-800'>
+                  <div className=''>
+
                         <Banner></Banner>
                         <Skills></Skills>
                         <HomeProject></HomeProject>

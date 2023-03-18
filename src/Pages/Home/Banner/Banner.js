@@ -1,6 +1,7 @@
 import React from 'react';
 import hello from '../../../assets/hello.svg';
-import download from '../../../assets/download.png'
+import download from '../../../assets/download.png';
+import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
       return (
@@ -8,7 +9,13 @@ const Banner = () => {
                   <span data-aos="fade-right" className='w-full lg:w-1/2'>
                         <h6 className='text-gray-200'>Hello Welcome to my world</h6>
                         <h2 className='text-green-500 font-bold text-3xl md:text-4xl lg:text-5xl'>I'm Khalid Hasan</h2>
-                        <h4 className='text-2xl text-gray-200 font-bold'>I'm a Web Developer</h4>
+                        <h4 className='text-2xl text-gray-200 font-bold'><Typewriter
+                              options={{
+                                    strings: ['Web Developer', 'Full Stack Developer', 'MERN Developer'],
+                                    autoStart: true,
+                                    loop: true,
+                              }}
+                        /></h4>
 
                         <a href='Khalid Hasan.pdf'>
                               <button className='btn btn-success mt-5'>
